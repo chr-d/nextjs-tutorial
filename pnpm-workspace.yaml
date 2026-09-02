@@ -4,3 +4,6 @@ minimumReleaseAge: 2880
 allowBuilds:
   bcrypt: true
   sharp: true
+trustPolicyExclude:
+  - next-auth
+  - jose@4.15.9
